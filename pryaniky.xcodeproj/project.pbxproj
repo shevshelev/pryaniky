@@ -9,21 +9,45 @@
 /* Begin PBXBuildFile section */
 		B89DE71028859246003E9D71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89DE70F28859246003E9D71 /* AppDelegate.swift */; };
 		B89DE71228859246003E9D71 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89DE71128859246003E9D71 /* SceneDelegate.swift */; };
-		B89DE71428859246003E9D71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89DE71328859246003E9D71 /* ViewController.swift */; };
 		B89DE71728859246003E9D71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B89DE71528859246003E9D71 /* Main.storyboard */; };
 		B89DE7192885924D003E9D71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B89DE7182885924D003E9D71 /* Assets.xcassets */; };
 		B89DE71C2885924D003E9D71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B89DE71A2885924D003E9D71 /* LaunchScreen.storyboard */; };
+		B89DE72528859582003E9D71 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89DE72428859582003E9D71 /* Response.swift */; };
+		B89DE72828859B85003E9D71 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89DE72728859B85003E9D71 /* NetworkManager.swift */; };
+		B89DE72A2885D7A7003E9D71 /* DataListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89DE7292885D7A7003E9D71 /* DataListViewController.swift */; };
+		B89DE72D2885DC63003E9D71 /* DataListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89DE72C2885DC63003E9D71 /* DataListViewModel.swift */; };
+		B89DE7332885E9F3003E9D71 /* LabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89DE7322885E9F3003E9D71 /* LabelCell.swift */; };
+		B89DE7362885EA1C003E9D71 /* LabelCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89DE7352885EA1C003E9D71 /* LabelCellViewModel.swift */; };
+		B89DE7392885F294003E9D71 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89DE7382885F294003E9D71 /* ImageCell.swift */; };
+		B89DE73B2885F2A5003E9D71 /* ImageCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89DE73A2885F2A5003E9D71 /* ImageCellViewModel.swift */; };
+		B89DE73D2885F67C003E9D71 /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89DE73C2885F67C003E9D71 /* ImageManager.swift */; };
+		B89DE7402886A125003E9D71 /* SelectorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89DE73F2886A125003E9D71 /* SelectorCell.swift */; };
+		B89DE7422886A13C003E9D71 /* SelectorCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89DE7412886A13C003E9D71 /* SelectorCellViewModel.swift */; };
+		C23DE1A79566C0A61CE1BEDC /* Pods_pryaniky.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79589CFA2C0363C6EB145CFE /* Pods_pryaniky.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		79589CFA2C0363C6EB145CFE /* Pods_pryaniky.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pryaniky.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F8E26E473215DEC75575428 /* Pods-pryaniky.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pryaniky.release.xcconfig"; path = "Target Support Files/Pods-pryaniky/Pods-pryaniky.release.xcconfig"; sourceTree = "<group>"; };
 		B89DE70C28859246003E9D71 /* pryaniky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pryaniky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B89DE70F28859246003E9D71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B89DE71128859246003E9D71 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B89DE71328859246003E9D71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B89DE71628859246003E9D71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B89DE7182885924D003E9D71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B89DE71B2885924D003E9D71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B89DE71D2885924D003E9D71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B89DE72428859582003E9D71 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		B89DE72728859B85003E9D71 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		B89DE7292885D7A7003E9D71 /* DataListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataListViewController.swift; sourceTree = "<group>"; };
+		B89DE72C2885DC63003E9D71 /* DataListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataListViewModel.swift; sourceTree = "<group>"; };
+		B89DE7322885E9F3003E9D71 /* LabelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelCell.swift; sourceTree = "<group>"; };
+		B89DE7352885EA1C003E9D71 /* LabelCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelCellViewModel.swift; sourceTree = "<group>"; };
+		B89DE7382885F294003E9D71 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		B89DE73A2885F2A5003E9D71 /* ImageCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCellViewModel.swift; sourceTree = "<group>"; };
+		B89DE73C2885F67C003E9D71 /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
+		B89DE73F2886A125003E9D71 /* SelectorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectorCell.swift; sourceTree = "<group>"; };
+		B89DE7412886A13C003E9D71 /* SelectorCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectorCellViewModel.swift; sourceTree = "<group>"; };
+		F48658C06893CB3A4573E567 /* Pods-pryaniky.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pryaniky.debug.xcconfig"; path = "Target Support Files/Pods-pryaniky/Pods-pryaniky.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C23DE1A79566C0A61CE1BEDC /* Pods_pryaniky.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A5D94EABDA47BEAAD5701E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79589CFA2C0363C6EB145CFE /* Pods_pryaniky.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6ACAC3629FE2A3EE5CCFD0FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F48658C06893CB3A4573E567 /* Pods-pryaniky.debug.xcconfig */,
+				7F8E26E473215DEC75575428 /* Pods-pryaniky.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B89DE70328859246003E9D71 = {
 			isa = PBXGroup;
 			children = (
 				B89DE70E28859246003E9D71 /* pryaniky */,
 				B89DE70D28859246003E9D71 /* Products */,
+				6ACAC3629FE2A3EE5CCFD0FD /* Pods */,
+				6A5D94EABDA47BEAAD5701E7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +100,105 @@
 		B89DE70E28859246003E9D71 /* pryaniky */ = {
 			isa = PBXGroup;
 			children = (
-				B89DE70F28859246003E9D71 /* AppDelegate.swift */,
-				B89DE71128859246003E9D71 /* SceneDelegate.swift */,
-				B89DE71328859246003E9D71 /* ViewController.swift */,
-				B89DE71528859246003E9D71 /* Main.storyboard */,
-				B89DE7182885924D003E9D71 /* Assets.xcassets */,
-				B89DE71A2885924D003E9D71 /* LaunchScreen.storyboard */,
-				B89DE71D2885924D003E9D71 /* Info.plist */,
+				B89DE72628859B64003E9D71 /* Service */,
+				B89DE723288594C3003E9D71 /* Model */,
+				B89DE72B2885D91A003E9D71 /* DataList */,
+				B89DE7312885E908003E9D71 /* Cell */,
+				B89DE72E2885E80C003E9D71 /* Storyboard */,
+				B89DE7302885E842003E9D71 /* Supporting Files */,
+				B89DE72F2885E82C003E9D71 /* Resources */,
 			);
 			path = pryaniky;
+			sourceTree = "<group>";
+		};
+		B89DE723288594C3003E9D71 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B89DE72428859582003E9D71 /* Response.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B89DE72628859B64003E9D71 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B89DE72728859B85003E9D71 /* NetworkManager.swift */,
+				B89DE73C2885F67C003E9D71 /* ImageManager.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		B89DE72B2885D91A003E9D71 /* DataList */ = {
+			isa = PBXGroup;
+			children = (
+				B89DE7292885D7A7003E9D71 /* DataListViewController.swift */,
+				B89DE72C2885DC63003E9D71 /* DataListViewModel.swift */,
+			);
+			path = DataList;
+			sourceTree = "<group>";
+		};
+		B89DE72E2885E80C003E9D71 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				B89DE71528859246003E9D71 /* Main.storyboard */,
+				B89DE71A2885924D003E9D71 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		B89DE72F2885E82C003E9D71 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B89DE7182885924D003E9D71 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B89DE7302885E842003E9D71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B89DE70F28859246003E9D71 /* AppDelegate.swift */,
+				B89DE71128859246003E9D71 /* SceneDelegate.swift */,
+				B89DE71D2885924D003E9D71 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B89DE7312885E908003E9D71 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B89DE7342885E9FA003E9D71 /* LabelCell */,
+				B89DE7372885F26F003E9D71 /* ImageCell */,
+				B89DE73E2886A0F4003E9D71 /* SelectorCell */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B89DE7342885E9FA003E9D71 /* LabelCell */ = {
+			isa = PBXGroup;
+			children = (
+				B89DE7322885E9F3003E9D71 /* LabelCell.swift */,
+				B89DE7352885EA1C003E9D71 /* LabelCellViewModel.swift */,
+			);
+			path = LabelCell;
+			sourceTree = "<group>";
+		};
+		B89DE7372885F26F003E9D71 /* ImageCell */ = {
+			isa = PBXGroup;
+			children = (
+				B89DE7382885F294003E9D71 /* ImageCell.swift */,
+				B89DE73A2885F2A5003E9D71 /* ImageCellViewModel.swift */,
+			);
+			path = ImageCell;
+			sourceTree = "<group>";
+		};
+		B89DE73E2886A0F4003E9D71 /* SelectorCell */ = {
+			isa = PBXGroup;
+			children = (
+				B89DE73F2886A125003E9D71 /* SelectorCell.swift */,
+				B89DE7412886A13C003E9D71 /* SelectorCellViewModel.swift */,
+			);
+			path = SelectorCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B89DE7202885924D003E9D71 /* Build configuration list for PBXNativeTarget "pryaniky" */;
 			buildPhases = (
+				F7B99BE5599FD880C93242E9 /* [CP] Check Pods Manifest.lock */,
 				B89DE70828859246003E9D71 /* Sources */,
 				B89DE70928859246003E9D71 /* Frameworks */,
 				B89DE70A28859246003E9D71 /* Resources */,
+				15087E300141DDD2530E9704 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +269,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15087E300141DDD2530E9704 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pryaniky/Pods-pryaniky-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pryaniky/Pods-pryaniky-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pryaniky/Pods-pryaniky-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7B99BE5599FD880C93242E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pryaniky-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B89DE70828859246003E9D71 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B89DE71428859246003E9D71 /* ViewController.swift in Sources */,
+				B89DE73B2885F2A5003E9D71 /* ImageCellViewModel.swift in Sources */,
+				B89DE72528859582003E9D71 /* Response.swift in Sources */,
+				B89DE7422886A13C003E9D71 /* SelectorCellViewModel.swift in Sources */,
+				B89DE72828859B85003E9D71 /* NetworkManager.swift in Sources */,
+				B89DE7392885F294003E9D71 /* ImageCell.swift in Sources */,
+				B89DE7332885E9F3003E9D71 /* LabelCell.swift in Sources */,
 				B89DE71028859246003E9D71 /* AppDelegate.swift in Sources */,
+				B89DE72A2885D7A7003E9D71 /* DataListViewController.swift in Sources */,
+				B89DE72D2885DC63003E9D71 /* DataListViewModel.swift in Sources */,
 				B89DE71228859246003E9D71 /* SceneDelegate.swift in Sources */,
+				B89DE73D2885F67C003E9D71 /* ImageManager.swift in Sources */,
+				B89DE7402886A125003E9D71 /* SelectorCell.swift in Sources */,
+				B89DE7362885EA1C003E9D71 /* LabelCellViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +470,7 @@
 		};
 		B89DE7212885924D003E9D71 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F48658C06893CB3A4573E567 /* Pods-pryaniky.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -289,12 +478,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YCD8TAUA7N;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = pryaniky/Info.plist;
+				INFOPLIST_FILE = "pryaniky/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,12 +495,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		B89DE7222885924D003E9D71 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F8E26E473215DEC75575428 /* Pods-pryaniky.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -317,12 +509,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YCD8TAUA7N;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = pryaniky/Info.plist;
+				INFOPLIST_FILE = "pryaniky/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +526,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
