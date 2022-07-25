@@ -23,6 +23,7 @@
 		B89DE73D2885F67C003E9D71 /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89DE73C2885F67C003E9D71 /* ImageManager.swift */; };
 		B89DE7402886A125003E9D71 /* SelectorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89DE73F2886A125003E9D71 /* SelectorCell.swift */; };
 		B89DE7422886A13C003E9D71 /* SelectorCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89DE7412886A13C003E9D71 /* SelectorCellViewModel.swift */; };
+		B89DE765288E67AD003E9D71 /* UITableView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89DE764288E67AD003E9D71 /* UITableView + Extension.swift */; };
 		C23DE1A79566C0A61CE1BEDC /* Pods_pryaniky.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79589CFA2C0363C6EB145CFE /* Pods_pryaniky.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,7 @@
 		B89DE73C2885F67C003E9D71 /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
 		B89DE73F2886A125003E9D71 /* SelectorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectorCell.swift; sourceTree = "<group>"; };
 		B89DE7412886A13C003E9D71 /* SelectorCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectorCellViewModel.swift; sourceTree = "<group>"; };
+		B89DE764288E67AD003E9D71 /* UITableView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView + Extension.swift"; sourceTree = "<group>"; };
 		F48658C06893CB3A4573E567 /* Pods-pryaniky.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pryaniky.debug.xcconfig"; path = "Target Support Files/Pods-pryaniky/Pods-pryaniky.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,6 +102,7 @@
 		B89DE70E28859246003E9D71 /* pryaniky */ = {
 			isa = PBXGroup;
 			children = (
+				B89DE763288E677A003E9D71 /* Extension */,
 				B89DE72628859B64003E9D71 /* Service */,
 				B89DE723288594C3003E9D71 /* Model */,
 				B89DE72B2885D91A003E9D71 /* DataList */,
@@ -199,6 +202,14 @@
 				B89DE7412886A13C003E9D71 /* SelectorCellViewModel.swift */,
 			);
 			path = SelectorCell;
+			sourceTree = "<group>";
+		};
+		B89DE763288E677A003E9D71 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B89DE764288E67AD003E9D71 /* UITableView + Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B89DE73B2885F2A5003E9D71 /* ImageCellViewModel.swift in Sources */,
+				B89DE765288E67AD003E9D71 /* UITableView + Extension.swift in Sources */,
 				B89DE72528859582003E9D71 /* Response.swift in Sources */,
 				B89DE7422886A13C003E9D71 /* SelectorCellViewModel.swift in Sources */,
 				B89DE72828859B85003E9D71 /* NetworkManager.swift in Sources */,

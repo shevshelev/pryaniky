@@ -11,6 +11,7 @@ import RxSwift
 
 class DataListViewController: UITableViewController {
     
+    private let bag = DisposeBag()
     private var viewModel: DataListViewModelProtocol! {
         didSet {
             viewModel.fetchData { [unowned self] in
@@ -22,9 +23,20 @@ class DataListViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         viewModel = DataListViewModel()
-        tableView.register(LabelCell.self, forCellReuseIdentifier: LabelCell.reuseId)
-        tableView.register(ImageCell.self, forCellReuseIdentifier: ImageCell.reuseId)
-        tableView.register(SelectorCell.self, forCellReuseIdentifier: SelectorCell.reuseId)
+        tableView.registerCells([LabelCell(), ImageCell(), SelectorCell()])
+        tableViewBinding()
+            
+    }
+    
+    // MARK: - Private Functions
+    
+    private func tableViewBinding() {
+        tableView.rx.itemSelected.asControlEvent()
+            .bind (onNext: { indexPath in
+                self.tableView.deselectRow(at: indexPath, animated: true)
+                let view = self.viewModel.views[indexPath.row]
+                self.showAlertController(for: indexPath.row, and: view, or: nil)
+            }).disposed(by: bag)
     }
 
     // MARK: - Table view data source
@@ -70,12 +82,6 @@ class DataListViewController: UITableViewController {
             let viewModel = self.viewModel.cellViewModel(dataType: .selector) as? SelectorCellViewModel
             return CGFloat(viewModel?.rowHeight ?? 0)
         }
-    }
-    
-    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        tableView.deselectRow(at: indexPath, animated: true)
-        let view = viewModel.views[indexPath.row]
-        showAlertController(for: indexPath.row, and: view, or: nil)
     }
 }
 
